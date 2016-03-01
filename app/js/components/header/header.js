@@ -12,7 +12,7 @@ export default React.createClass({
           <h1>
             Create a Class
           </h1>
-          <ul>
+          <ul className="navList">
             <li>
               Details >
             </li>
