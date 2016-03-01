@@ -1,11 +1,24 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-export default React.createClass({
+import Dashboard from './dashboard';
+
+const ClassApp = React.createClass({
+
   render() {
     return (
-      <div>
-        Hello World!
-      </div>
+      <Dashboard
+      {...this.props}/>
     );
   }
 });
+
+function mapStateToProps(state) {
+  return {
+    ...state.mainReducer
+  };
+}
+
+export default connect(
+  mapStateToProps
+)(ClassApp);
