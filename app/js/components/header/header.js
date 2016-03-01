@@ -4,24 +4,32 @@ export default React.createClass({
 
   render() {
     return (
-      <header>
+      <header className="headContainer">
         <nav>
-          <span>
-          </span>
+          <span className="icon-menu"></span>
         </nav>
         <section>
           <h1>
             Create a Class
           </h1>
-          <ul>
+          <ul className="navList">
             <li>
-              Details >
+              Details
             </li>
             <li>
-              Schedule >
+            >
             </li>
             <li>
-              Payment >
+              Schedule
+            </li>
+            <li>
+            >
+            </li>
+            <li>
+              Payment
+            </li>
+            <li>
+            >
             </li>
             <li>
               Confirm

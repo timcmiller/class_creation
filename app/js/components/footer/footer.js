@@ -4,9 +4,9 @@ export default React.createClass({
 
   render() {
     return (
-      <footer>
-        <button type="button">Cancel</button>
-        <button type="button">Next Step</button>
+      <footer className="footContainer">
+        <button className="btn back" type="button">Cancel</button>
+        <button className="btn advance" type="button">Next Step</button>
       </footer>
     );
   }
