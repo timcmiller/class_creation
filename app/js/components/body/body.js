@@ -14,16 +14,16 @@ export default React.createClass({
           </li>
           <li className="column">
             <form className="radio">
-            <label>
-                <input type="radio" name="daily" value="Daily" defaultChecked />
+              <label htmlFor="daily">
+                <input type="radio" value="daily" name="frequency" className="radioInput" />
                 Daily
               </label>
-              <label>
-                <input type="radio" name="weekly" value="Weekly" />
+              <label htmlFor="weekly">
+                <input type="radio" value="weekly" name="frequency" className="radioInput" />
                 Weekly
               </label>
-              <label>
-                <input type="radio" name="monthly" value="Monthly" />
+              <label htmlFor="monthly">
+                <input type="radio" value="monthly" name="frequency" className="radioInput" />
                 Monthly
               </label>
             </form>
