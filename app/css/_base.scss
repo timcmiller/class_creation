@@ -1,0 +1,19 @@
+body {
+  font-family: $main-font;
+}
+
+.headContainer {
+  border-top: 2px solid $color1;
+  border-bottom: 1px solid $color3;
+}
+
+.footContainer {
+  border-top: 1px solid $color3;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid $color3;
+}

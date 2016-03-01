@@ -4,7 +4,7 @@ export default React.createClass({
 
   render() {
     return (
-      <footer>
+      <footer className="footContainer">
         <button type="button">Cancel</button>
         <button type="button">Next Step</button>
       </footer>

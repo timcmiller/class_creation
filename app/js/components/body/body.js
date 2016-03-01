@@ -4,7 +4,7 @@ export default React.createClass({
 
   render() {
     return (
-      <section>
+      <section className="mainContainer">
         <ul>
           <li>
             <h2>

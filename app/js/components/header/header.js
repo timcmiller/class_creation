@@ -4,10 +4,9 @@ export default React.createClass({
 
   render() {
     return (
-      <header>
+      <header className="headContainer">
         <nav>
-          <span>
-          </span>
+          <span className="icon-menu"></span>
         </nav>
         <section>
           <h1>
