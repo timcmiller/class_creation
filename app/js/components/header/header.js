@@ -5,27 +5,29 @@ export default React.createClass({
   render() {
     return (
       <header>
-        <span>
-        </span>
-        <article>
+        <nav>
+          <span>
+          </span>
+        </nav>
+        <section>
           <h1>
             Create a Class
           </h1>
-          <div>
-            <p>
+          <ul>
+            <li>
               Details >
-            </p>
-            <p>
+            </li>
+            <li>
               Schedule >
-            </p>
-            <p>
+            </li>
+            <li>
               Payment >
-            </p>
-            <p>
+            </li>
+            <li>
               Confirm
-            </p>
-          </div>
-        </article>
+            </li>
+          </ul>
+        </section>
       </header>
     );
   }
