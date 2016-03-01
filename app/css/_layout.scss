@@ -1,18 +1,23 @@
-.mainContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+//header
+h1 {
+  margin-bottom: 0px;
+}
+
+nav {
+  font-size: 48px;
+  position: absolute;
+  margin: 33px;
 }
 
 .headContainer {
   margin: 30px;
 }
 
-.footContainer {
+.headContainer section {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .navList {
@@ -25,19 +30,55 @@
   padding: 5px;
 }
 
-nav {
-  font-size: 48px;
-  position: absolute;
-  margin: 33px;
-}
+//body
 
-.headContainer section {
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
 }
 
-h1 {
-  margin-bottom: 0px;
+.switchBox {
+  display: flex;
+  align-items: center;
 }
+
+.inputList {
+  li {
+    display: flex;
+    padding: 10px;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+textarea {
+ border: 1px solid $color3;
+ border-radius: 6px;
+ height: 120px;
+ width: 500px;
+}
+
+//footer
+
+.footContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+
+

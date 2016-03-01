@@ -14,13 +14,22 @@ export default React.createClass({
           </h1>
           <ul className="navList">
             <li>
-              Details >
+              Details
             </li>
             <li>
-              Schedule >
+            >
             </li>
             <li>
-              Payment >
+              Schedule
+            </li>
+            <li>
+            >
+            </li>
+            <li>
+              Payment
+            </li>
+            <li>
+            >
             </li>
             <li>
               Confirm
