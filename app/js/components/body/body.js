@@ -10,7 +10,7 @@ export default React.createClass({
             <h2>
               Class Name
             </h2>
-            <input type="text" placeholder="Hello World" />
+            <input className="mainInput" type="text" placeholder="Hello World" />
           </li>
           <li className="column">
             <form className="radio">

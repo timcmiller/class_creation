@@ -25,11 +25,11 @@ h2 {
 
 li:first-child {
   color: $color2;
+}
 
-  input {
-    color: black;
-    border-bottom: 2px solid $color2;
-  }
+.mainInput {
+  color: black;
+  border-bottom: 2px solid $color2;
 }
 
 //header
