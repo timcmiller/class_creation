@@ -59,6 +59,10 @@ nav {
   }
 }
 
+input[type="text"]:not(.mainInput) {
+  width: 240px;
+}
+
 .radio {
   display: flex;
   justify-content: space-between;
