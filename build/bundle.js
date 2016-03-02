@@ -21303,7 +21303,7 @@
 	            null,
 	            "Class Name"
 	          ),
-	          _react2.default.createElement("input", { type: "text", placeholder: "Hello World" })
+	          _react2.default.createElement("input", { className: "mainInput", type: "text", placeholder: "Hello World" })
 	        ),
 	        _react2.default.createElement(
 	          "li",

@@ -481,6 +481,9 @@ nav {
   flex-direction: row;
   justify-content: space-between; }
 
+input[type="text"]:not(.mainInput) {
+  width: 240px; }
+
 .radio {
   display: flex;
   justify-content: space-between;
@@ -521,9 +524,10 @@ h2 {
 
 li:first-child {
   color: #4784AD; }
-  li:first-child input {
-    color: black;
-    border-bottom: 2px solid #4784AD; }
+
+.mainInput {
+  color: black;
+  border-bottom: 2px solid #4784AD; }
 
 .headContainer {
   border-top: 4px solid #C23750;
